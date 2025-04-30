@@ -1,3 +1,5 @@
+https://github.com/debianlinux29/AKR_AI.git
+
 ### Étape 1 : Installer Git et Python
 
 Avant de commencer, assurez-vous d'avoir Git et Python installés sur votre machine. Vous pouvez vérifier cela en exécutant les commandes suivantes dans l'invite de commandes (CMD) :
@@ -41,7 +43,7 @@ cd nom_depot
 Pour créer un environnement virtuel, utilisez la commande suivante (en supposant que vous avez Python 3.x) :
 
 ```bash
-python -m venv nom_env
+python -m venv .
 ```
 
 Remplacez `nom_env` par le nom que vous souhaitez donner à votre environnement virtuel.
@@ -88,7 +90,7 @@ Voici un récapitulatif des commandes nécessaires :
 
 3. Créer un environnement virtuel :
    ```bash
-   python -m venv nom_env
+   python -m venv .
    ```
 
 4. Activer l'environnement virtuel :
